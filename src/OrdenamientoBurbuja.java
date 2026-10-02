@@ -4,10 +4,12 @@ public class OrdenamientoBurbuja {
 
     public static void sortBobble(Object[] array){
 
+
         int counter = 0;
         for(int i = 0; i < array.length - 1; i ++){
 
             for (int j = 0 ; j < array.length -1 - i ; j ++){
+                // if I want to change ascending or descending, you only have to change ">"
                 if (((Comparable<Object>)array[j + 1]).compareTo(array[j]) < 0){
                     Object auxiliary = array[j];
                     array[j] = array[j+1];

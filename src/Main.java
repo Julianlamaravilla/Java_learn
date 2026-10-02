@@ -1,18 +1,7 @@
 
 public static void main(String[] args){
 
-    String[] products = {
-            "Kigston Pendrive 64GB",
-            "Sansung galaxy", "Disco Duro SSD Sansung Externo", "Asus NoteBook",
-            "Macbook Air", "Chromecast 4ta generación", "Bicicleta Oxford"
-    };
 
-    int total = products.length;
-
-
-    for (int i = 0; i < total ; i++){
-        System.out.println("para indice " + i + " : " + products[i]);
-    }
 
     // second exercise
 
@@ -25,7 +14,7 @@ public static void main(String[] args){
     numbers[2] = 35;
     numbers[3] = -1;
 
-    for (int i = 0; i < total - 1; i ++){
+    for (int i = 0; i < numbers.length - 1; i ++){
 
         for (int j = 0 ; j < numbers.length -1 - i ; j ++){
             if (((Integer)numbers[j + 1]).compareTo(numbers[j]) < 0){
