@@ -47,7 +47,6 @@ public class EArrayPairInPair {
         for(int i : pair){
             System.out.print(i + " ");
         }
-
         System.out.print(" ");
     }
 }
